@@ -18,7 +18,7 @@ class App extends React.Component {
         
         // const TextItem = todosData.map(item => <TodoItem key={item.id} item={{item: item.text}}/>)
 
-        const todoItems = this.state.todos.map(item => <TodoItem key={item.id} item={item}/>)
+        const todoItems = this.state.todos.map(item => <TodoItem key={item.id} item={item}/>) // you should pass a param as an object, because (open TodoItem.js)
 
         return (
             <div className="todo-list">

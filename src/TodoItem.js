@@ -13,7 +13,9 @@ function TodoItem(props) {
                 )
             } */}
             <input type="checkbox" checked={props.item.completed}/>
-            <p>{props.item.text}</p>
+            <p>{props.item.text}</p> 
+
+            {/*you don't neet to worry about changes and it's more dynamic*/}
         </div>
     )
 }
